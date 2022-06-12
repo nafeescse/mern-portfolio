@@ -1,76 +1,80 @@
 import React from 'react';
 
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaStripeS } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
-import { SiReactrouter, SiExpress, SiMongodb } from 'react-icons/si';
+import { SiReactrouter, SiExpress, SiMongodb, SiFirebase } from 'react-icons/si';
 
 
 const Skills = () => {
     return (
 
         <div id='skills' className='flex flex-col items-center py-10 bg-secondary'>
-            <p className='text-center text-3xl text-primary font-bold uppercase my-10'>Technologies</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 bg-accent shadow-xl rounded-xl w-5/6'>
+            <p className='text-center text-3xl text-primary font-bold uppercase my-10'>Tech I Use</p>
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5 bg-accent shadow-xl rounded-xl w-5/6 p-5 '>
 
-                <div className="card w-full bg-base-100">
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <FaHtml5 className='mr-2'></FaHtml5>HTML5</h2>
-                            <h2 className="">95%</h2></div>
-                        <progress className="progress progress-primary w-84" value="95" max="100">95%</progress>
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <FaCss3Alt className='mr-2'></FaCss3Alt>CSS3</h2>
-                            <h2 className="">90%</h2></div>
-                        <progress className="progress progress-primary w-84" value="90" max="100">90%</progress>
 
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <TbBrandJavascript className='mr-2'></TbBrandJavascript>JAVASCRIPT(ES6)</h2>
-                            <h2 className="">80%</h2></div>
-                        <progress className="progress progress-primary w-84" value="80" max="100">80%</progress>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-orange-500">
 
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <FaReact className='mr-2'></FaReact>REACT JS</h2>
-                            <h2 className="">85%</h2></div>
-                        <progress className="progress progress-primary w-84" value="85" max="100">85%</progress>
-
-                    </div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='' />
 
                 </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl  transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-500">
 
-
-
-                <div className="card w-full bg-base-100">
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <SiReactrouter className='mr-2'></SiReactrouter>ROUTER</h2>
-                            <h2 className="">90%</h2></div>
-                        <progress className="progress progress-primary w-84" value="90" max="100">90%</progress>
-
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <FaNodeJs className='mr-2'></FaNodeJs>NODE JS</h2>
-                            <h2 className="">75%</h2></div>
-                        <progress className="progress progress-primary w-84" value="75" max="100">75%</progress>
-
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <SiExpress className='mr-2'></SiExpress>EXPRESS JS</h2>
-                            <h2 className="">80%</h2></div>
-                        <progress className="progress progress-primary w-84" value="80" max="100">80%</progress>
-
-                    </div>
-                    <div className="card-body transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary">
-                        <div className='card-title flex justify-between'><h2 className="flex items-center"> <SiMongodb className='mr-2'></SiMongodb>MONGODB</h2>
-                            <h2 className="">75%</h2></div>
-                        <progress className="progress progress-primary w-84" value="75" max="100">75%</progress>
-
-                    </div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='' />
 
                 </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-yellow-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-orange-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-green-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-black">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-green-600">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-500">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt='' />
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-700">
 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt='' />
+
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-green-600">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt='' />
+
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-500">
+
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt='' />
+
+                </div>
+                <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-blue-800">
+
+
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt='' />
+
+                </div>
 
             </div>
+
+
+
         </div>
     );
 };
