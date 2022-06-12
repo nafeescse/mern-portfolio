@@ -15,15 +15,15 @@ const Project = ({ project }) => {
         <Details key={project.id} project={project}></Details>
     }
     return (
-        <div class="card  bg-base-100 shadow-xl shadow-secondary">
+        <div className="card  bg-base-100 shadow-xl shadow-secondary">
             <figure className='transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-125 duration-500'><img className='h-[200px] w-full m-1 rounded-t-2xl overflow-y-auto' src={img} alt="Album"/></figure>
-            <div class="py-3 text-center">
-                <h2 class="text-2xl font-bold text-center">{name}</h2>
+            <div className="py-3 text-center">
+                <h2 className="text-2xl font-bold text-center">{name}</h2>
                 <p className='text-center'>{description}</p>
-                <p className='text-center mx-5 gap-2'>{tech.split('-').map(i => <div class="badge badge-success text-white">{i}</div>)}</p>
-                <div class="card-actions justify-center gap-5 my-5">
-                            <a href={liveLink}><button class="btn btn-primary btn-sm text-white gap-2">Live Site <FaLink></FaLink></button></a>
-                            <a href={gitLink}><button class="btn btn-primary btn-sm text-white gap-2">Github <BsGithub></BsGithub></button></a>
+                <p className='text-center mx-5 gap-2'>{tech.split('-').map(i => <div className="badge badge-success text-white">{i}</div>)}</p>
+                <div className="card-actions justify-center gap-5 my-5">
+                            <a href={liveLink}><button className="btn btn-primary btn-sm text-white gap-2">Live Site <FaLink></FaLink></button></a>
+                            <a href={gitLink}><button className="btn btn-primary btn-sm text-white gap-2">Github <BsGithub></BsGithub></button></a>
                         </div>
                 <button onClick={() => navigateToDetails(id)} className='btn btn-primary btn-sm btn-wide gap-2 text-white'>Details <MdExplore></MdExplore></button>
             </div>

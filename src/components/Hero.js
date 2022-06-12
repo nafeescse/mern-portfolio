@@ -4,7 +4,7 @@ import github from '../assets/img/github.png';
 import facebook from '../assets/img/facebook (1).png';
 import mine from '../assets/img/mine.jpg';
 import Type from './Type';
-import {  FaDownload } from 'react-icons/fa';
+import { FaDownload } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -25,9 +25,9 @@ const Hero = () => {
                     <div className='flex justify-center items-center my-5'>
                         <button className="hover:bg-white hover:text-primary btn btn-primary mr-10 text-white "><a className='flex gap-2' target='_blank' href="https://drive.google.com/file/d/1S2azPzzz7atzwOPcdG8HMh-m-COM7Zwt/view" rel='noreferrer'>Resume<FaDownload></FaDownload> </a></button>
                         <div>
-                            <button className="btn-ghost w-8   text-white"><a rel='noreferrer' target='_blank' href="https://www.linkedin.com/in/abdur-rahman-nafees-a609a2218" class="home__social-icon"><img src={linkedin} alt="" /></a></button>
+                            <button className="btn-ghost w-8   text-white"><a rel='noreferrer' target='_blank' href="https://www.linkedin.com/in/abdur-rahman-nafees-a609a2218" className="home__social-icon"><img src={linkedin} alt="" /></a></button>
 
-                            <button className="w-8 mx-3 btn-ghost   text-white"><a rel='noreferrer' target='_blank' href="https://github.com/nafeescse" class=" w-110"><img src={github} alt="" /></a></button>
+                            <button className="w-8 mx-3 btn-ghost   text-white"><a rel='noreferrer' target='_blank' href="https://github.com/nafeescse" className=" w-110"><img src={github} alt="" /></a></button>
 
                             <button className="btn-ghost w-8  text-white"><a href="https://www.facebook.com/nafeesbinz" target="_blank" rel="noreferrer"><img src={facebook} alt="" /></a></button>
 
