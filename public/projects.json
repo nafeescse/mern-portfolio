@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Bike Xpress",
+        "features": " Showcase all available Bikes with details. Sellers can update their stock and also product details. Implemented authentication system with Email/Password and Google/Github/Facebook. Only for sellers to track how much stock is available. Sellers can add, delete and update products",
+        "tech": " -React -React Router -Tailwind CSS -Daisy UI -Firebase -React Firebase Hooks -React Hook Form -JWT -Node Js -Express Js -Mongo DB",
+        "description": "Bike Warehouse Management Website",
+        "liveLink": "https://wireehouse.web.app/",
+        "gitLink": "https://github.com/nafeescse/Bike-warehouse-with-React",
+        "img": [
+            "https://i.ibb.co/Z19GfFZ/React-App-8.png",
+            "https://i.ibb.co/pbHxF1X/React-App-7.png",
+            "https://i.ibb.co/3rcSkh2/React-App-6.png",
+            "https://i.ibb.co/NWCFT2B/React-App-5.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tuition-e",
+        "features": " Showcase all available tuitions and tutor’s information.Absolutely free of cost service. Implemented authentication system with Email/Password and Google/Github/Facebook. Separate student, tutor and admin dashboard. Admin can manage all tutors & all tuitions",
+        "tech": " -React -React Router -Tailwind CSS -Daisy UI -Firebase -React Firebase Hooks -React Hook Form -JWT -Node Js -Express Js -Mongo DB",
+        "description": "Online Tutor and Tuition Management Website",
+        "liveLink": "https://tuition-e-9338c.web.app/",
+        "gitLink": "https://github.com/nafeescse/Tuition-e-MERN-stack-clientside-",
+        "img": [
+            "https://i.ibb.co/QdG9zVt/React-App-9.png",
+            "https://i.ibb.co/DMg6J2k/React-App-10.png",
+            "https://i.ibb.co/5MfdJzf/React-App-11.png",
+            "https://i.ibb.co/FBDZW0H/React-App-12.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "AutoCar Parts",
+        "features": "Showcase All Products Customers can order any product and can proceed to payment via Stripe. Manage Orders & Products by admin Manage all customers and can make them an admin. Implemented authentication system with Email/Password and Google/Github/Facebook.Users can update their Profiles and can give a review of any product. Separate user and multifunctional admin Panel",
+        "tech": " -React -React Router -Tailwind CSS -Daisy UI -Firebase -React Firebase Hooks -React Hook Form -JWT -Node Js -Express Js -Mongo DB -Stripe Payments",
+        "description": "Parts Manufecturing Company Website",
+        "liveLink": "https://autocar-ba11b.web.app/",
+        "gitLink": "https://github.com/nafeescse/tools-factory-MERN-stack-Client-",
+        "img": [
+            "https://i.ibb.co/cQYjqqb/React-App-13.png",
+            "https://i.ibb.co/rs66RW6/React-App-15.png",
+            "https://i.ibb.co/5BgZvDd/React-App-16.png",
+            "https://i.ibb.co/dLh85fS/React-App-17.png"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Teach Me",
+        "features": " Showcase all available courses with details. users can update their stock and also product details. Implemented authentication system with Email/Password and Google/Github/Facebook. Only for users to track how much stock is available. users can add, delete and update products",
+        "tech": " -React -React Router -Tailwind CSS -Daisy UI -Firebase -React Firebase Hooks ",
+        "description": "Online Course Resource Website (Front-end)",
+        "liveLink": "https://teachme-75070.web.app/",
+        "gitLink": "https://github.com/nafeescse/udemy-clone-with-react",
+        "img": [
+            "https://i.ibb.co/GRsghWv/Teach-Me-2.png",
+            "https://i.ibb.co/Rg1BK2F/Teach-Me-3.png",
+            "https://i.ibb.co/d0nvD1H/Teach-Me-4.png",
+            "https://i.ibb.co/HhFptNg/Teach-Me-5.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Hillview Convention Hall",
+        "features": "Its basically a landing page design. Built using Bootstrap. Showcase all available services with details. customers can book any services by phone call . Implemented authentication system with Email/Password and Google/Github/Facebook",
+        "tech": "HTML, CSS, Bootstrap, Tailwind",
+        "description": "Convention Hall Management Website",
+        "liveLink": "https://hillview-convention-nafees.netlify.app/#gallery",
+        "gitLink": "https://github.com/nafeescse/Bike-warehouse-with-React",
+        "img": [
+            "https://i.ibb.co/Jk9fvmJ/Assignment-Bootstrap-3.png",
+            "https://i.ibb.co/YWk7h3x/Assignment-Bootstrap-2.png",
+            "https://i.ibb.co/Dg4qKQk/Assignment-Bootstrap-4.png",
+            "https://i.ibb.co/pKpXCG1/Assignment-Bootstrap-5.png"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Personal Portfolio",
+        "features": "It's my personal Portfolio. It contains my educational and professikonal qualifications and experiences. Showcase all projects that I have done ever. My resume, my social media account link are also provided. It's a professional portfolio",
+        "tech": " -React -React Router -Tailwind CSS -Daisy UI ",
+        "description": "Bike Warehouse Management Website",
+        "liveLink": "https://devnafees.netlify.app/",
+        "gitLink": "https://github.com/nafeescse/mern-portfolio",
+        "img": [
+            "https://i.ibb.co/Qd1nZ3v/React-App-18.png",
+            "https://i.ibb.co/gD4CTH1/React-App-19.png",
+            "https://i.ibb.co/dc2Z5yH/React-App-20.png",
+            "https://i.ibb.co/C63qnbk/React-App-21.png"
+        ]
+    }
+    
+]
