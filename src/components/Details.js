@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { FaLink } from 'react-icons/fa';
+import {BsGithub } from 'react-icons/bs';
+import { useParams } from 'react-router-dom';
 
 const Details = () => {
     const { Id } = useParams();
@@ -16,10 +18,8 @@ const Details = () => {
     console.log(selected);
     if (selected) {
         return (
-            <div className='flex flex-col items-center'>
-                <h2>Welcome to detail: {Id}</h2>
-                <h2>Welcome to detail: {selected.name}</h2>
-                <div class="card  bg-base-100 shadow-xl shadow-secondary max-w-xl">
+            <div className='flex flex-col items-center my-12 mx-5 '>
+                <div class="card  bg-base-100 shadow-5xl rounded-none rounded-tr-3xl rounded-bl-3xl shadow-secondary max-w-3xl">
                     <div>
                         <div class="carousel w-full">
                             <div id="slide1" class="carousel-item relative w-full ">
@@ -53,22 +53,19 @@ const Details = () => {
                             
                         </div>
                     </div>
-                    <div class="py-3 text-center">
+                    <div class="py-3 text-center bg-secondary">
                         <h2 class="text-2xl font-bold text-center">{selected.name}</h2>
                         <p className='text-center'>{selected.description}</p>
-                        <p className='text-center'><span className='text-xl font-bold'>Key Features: </span>{selected.features.split('.').map((i, index) => <ul className=''><li>{index + 1}. {i}</li></ul>)}</p>
+                        <p className='flex flex-col items-start mx-10'><span className='text-xl font-bold '>Key Features: </span>{selected.features.split('.').map((i, index) => <div className='text-start'><p>{index + 1}. {i}</p></div>)}</p>
                         <div class="card-actions justify-center gap-5 my-5">
-                            <a href="https://wireehouse.web.app/"><button class="btn btn-primary text-white b">Live Site</button></a>
-                            <a href="https://github.com/nafeescse/Bike-warehouse-with-React"><button class="btn btn-primary text-white">Github</button></a>
+                            <a href={selected.liveLink}><button class="btn btn-primary text-white gap-2">Live Site <FaLink></FaLink></button></a>
+                            <a href={selected.gitLink}><button class="btn btn-primary text-white gap-2">Github <BsGithub></BsGithub></button></a>
                         </div>
                     </div>
                 </div>
 
             </div>
         )
-
-        return
-        <p>Error 404 Not Found. Please return to homepage</p>
 
     }
 };

@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import project1 from '../assets/img/React App.png'
-import project2 from '../assets/img/Assignment-Bootstrap (1).png'
-import project3 from '../assets/img/TeachMe (1).png'
-import project4 from '../assets/img/React App (2).png'
-import project5 from '../assets/img/React App (3).png'
-import project6 from '../assets/img/React App (4).png'
+
 import Project from './Project';
 
 const Projects = () => {

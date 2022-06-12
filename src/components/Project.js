@@ -1,11 +1,13 @@
 import React from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import project1 from '../assets/img/React App.png'
+import { BsGithub } from 'react-icons/bs';
+import { FaLink } from 'react-icons/fa';
+import { MdExplore } from 'react-icons/md';
+import { useNavigate } from 'react-router-dom';
 import Details from './Details';
 
 const Project = ({ project }) => {
 
-    const { id, name, img, description, price } = project;
+    const { id, name, img, description, tech, liveLink, gitLink} = project;
     const navigate = useNavigate();
 
     const navigateToDetails = id => {
@@ -18,12 +20,12 @@ const Project = ({ project }) => {
             <div class="py-3 text-center">
                 <h2 class="text-2xl font-bold text-center">{name}</h2>
                 <p className='text-center'>{description}</p>
+                <p className='text-center mx-5 gap-2'>{tech.split('-').map(i => <div class="badge badge-success text-white">{i}</div>)}</p>
                 <div class="card-actions justify-center gap-5 my-5">
-                    <a href="https://wireehouse.web.app/"><button class="btn btn-primary text-white b">Live Site</button></a>
-                    <a href="https://github.com/nafeescse/Bike-warehouse-with-React"><button class="btn btn-primary text-white">Github</button></a>
-
-                </div>
-                <button onClick={() => navigateToDetails(id)} className='btn btn-primary'>Details</button>
+                            <a href={liveLink}><button class="btn btn-primary btn-sm text-white gap-2">Live Site <FaLink></FaLink></button></a>
+                            <a href={gitLink}><button class="btn btn-primary btn-sm text-white gap-2">Github <BsGithub></BsGithub></button></a>
+                        </div>
+                <button onClick={() => navigateToDetails(id)} className='btn btn-primary btn-sm btn-wide gap-2 text-white'>Details <MdExplore></MdExplore></button>
             </div>
         </div>
 
