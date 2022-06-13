@@ -16,9 +16,11 @@ const ContactMe = () => {
     }
     return (
         <div id='contacts' className='m-5'>
-            <p className='text-center text-3xl text-primary font-bold uppercase mt-10'>Contact Me</p>
+            <p data-aos="fade-up"
+                data-aos-duration="1000" className='text-center text-3xl text-primary font-bold uppercase mt-10'>Contact Me</p>
             <div className='flex flex-col md:flex-row justify-items-center mt-10 gap-10'>
-                <div className="w-5/6 lg:w-1/2 border border-secondary p-5 lg:p-10 rounded-2xl mx-auto flex flex-col items-center  justify-center shadow-xl shadow-secondary">
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className="w-5/6 lg:w-1/2 border border-secondary p-5 lg:p-10 rounded-2xl mx-auto flex flex-col items-center  justify-center shadow-xl shadow-secondary">
                     <img src={img} alt="" className='w-full' />
                     <div className="hidden">
                         <h3 className="text-primary text-xl">EMAIL</h3>
@@ -31,7 +33,8 @@ const ContactMe = () => {
                         <a href="https://www.google.com/maps/place/Sylhet/" className="contact__text mt-3">Sylhet, Bangladesh</a>
                     </div>
                 </div>
-                <form className='w-5/6 lg:w-1/2 mx-auto bg-secondary p-10 rounded-2xl' onSubmit={handleSubmit}>
+                <form data-aos="fade-up" 
+                    data-aos-duration="1000" className='w-5/6 lg:w-1/2 mx-auto bg-secondary p-10 rounded-2xl' onSubmit={handleSubmit}>
                     <div className='flex flex-col my-5'>
                         <label htmlFor="email">
                             Your Name

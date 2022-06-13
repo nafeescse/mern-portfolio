@@ -4,8 +4,10 @@ const Skills = () => {
     return (
 
         <div id='skills' className='flex flex-col items-center py-10 bg-secondary'>
-            <p className='text-center text-3xl text-primary font-bold uppercase my-10'>Tech I Use</p>
-            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5 bg-accent shadow-xl rounded-xl w-5/6 p-5 '>
+            <p data-aos="fade-up"
+                    data-aos-duration="1000"  className='text-center text-3xl text-primary font-bold uppercase my-10'>Tech I Use</p>
+            <div data-aos="fade-up"
+                    data-aos-duration="1000"  className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5 bg-accent shadow-xl rounded-xl w-5/6 p-5 '>
 
 
                 <div className="card-body w-42 border border-secondary rounded-2xl transition ease-in-out delay-50  hover:-translate-y-5 hover:scale-110 duration-300 overflow-visible hover:bg-secondary shadow-lg shadow-orange-500">

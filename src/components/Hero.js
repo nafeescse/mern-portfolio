@@ -11,12 +11,16 @@ const Hero = () => {
         <div id='hero' className=" h-100 bg-secondary py-10">
             <div className='grid grid-cols-1 lg:grid-cols-2 justify-items-center py-auto'>
                 <div className="avatar py-10 lg:py-24 ">
-                    <div className="w-80 lg:w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                    <div data-aos="fade-right" data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="1000" className="w-80 lg:w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                         <img src={mine} alt='' />
                     </div>
                 </div>
 
-                <div className=' flex flex-col items-center lg:items-start my-auto'>
+                <div data-aos="fade-left" data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000" className=' flex flex-col items-center lg:items-start my-auto'>
                     <p className='uppercase text-2xl'>Hi there I'm</p>
                     <p className='text-5xl lg:text-6xl font-bold py-3'><span className='text-primary'>Abdur</span> Rahman</p>
                     <Type className='text-5xl'></Type>

@@ -4,8 +4,10 @@ import React from 'react';
 const Service = () => {
     return (
         <div>
-            <p className='text-center text-3xl text-primary font-bold uppercase mt-10'>Services</p>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 m-10'>
+            <p data-aos="fade-up"
+                    data-aos-duration="1000"  className='text-center text-3xl text-primary font-bold uppercase mt-10'>Services</p>
+            <div data-aos="fade-up"
+                    data-aos-duration="1000"  className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 m-10'>
                 <div className="card  max-w-[320px] mx-auto bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <div className="avatar">
