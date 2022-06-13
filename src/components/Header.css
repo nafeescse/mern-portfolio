@@ -1,0 +1,11 @@
+.active-link{
+    background-color: transparent;
+    color: blue;
+    font-weight: 600;
+}
+.active-link:focus{
+    color: rgb(4, 104, 255) ;
+    background-color: transparent ;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -15,7 +15,8 @@ const Project = ({ project }) => {
         <Details key={project.id} project={project}></Details>
     }
     return (
-        <div className="card  bg-base-100 shadow-xl shadow-secondary">
+        <div data-aos="fade-up"
+        data-aos-duration="1000"  className="card  bg-base-100 shadow-xl shadow-secondary">
             <figure className='transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-125 duration-500'><img className='h-[200px] w-full m-1 rounded-t-2xl overflow-y-auto' src={img} alt="Album"/></figure>
             <div className="py-3 text-center">
                 <h2 className="text-2xl font-bold text-center">{name}</h2>
