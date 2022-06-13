@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typewriter } from 'react-typewriting-effect';
+import Typewriter from "typewriter-effect";
 
 const NotFound = () => {
     return (
