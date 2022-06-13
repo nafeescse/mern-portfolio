@@ -1,10 +1,5 @@
 import React from 'react';
 
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaStripeS } from 'react-icons/fa';
-import { TbBrandJavascript } from 'react-icons/tb';
-import { SiReactrouter, SiExpress, SiMongodb, SiFirebase } from 'react-icons/si';
-
-
 const Skills = () => {
     return (
 
